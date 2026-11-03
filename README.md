@@ -1,25 +1,24 @@
 # C++ Object-Oriented Programming
 
-A collection of C++ programs developed as part of the Object-Oriented Programming coursework. The repository covers foundational C++ programming, object-oriented concepts, constructors, static and friend functions, and inheritance.
+A collection of C++ programs developed as part of the Object-Oriented Programming coursework. The repository covers foundational C++ programming, classes and objects, constructors, static and friend functions, inheritance, polymorphism, operator overloading, exception handling, and abstraction.
 
 ---
 
 ## Student Details
 
-| Field        | Details                   |
-| ------------ | ---------------------     |
-| **Name**     | Sheefanaz B Sarawan       |
-| **Roll No.** | 414                       |
-| **Division** | D                         |
-| **SRN**      | 01FE23BEC175              |
-| **Semester** | VII                       |
-
+| Field | Details |
+|---|---|
+| **Name** | Sheefanaz B Sarawan |
+| **Roll No.** | 414 |
+| **Division** | D |
+| **SRN** | 01FE23BEC175 |
+| **Semester** | VII |
 
 ## About the Repository
 
-This repository contains the programs and lab exercises completed as part of the **Object Oriented Programming (OOP)** course.
+This repository contains programs and lab exercises completed as part of the **Object-Oriented Programming (OOP)** course.
 
-The programs are implemented primarily in **C++** and demonstrate fundamental programming concepts such as classes and objects, constructors, encapsulation, inheritance, functions, strings, arrays, and parameter passing.
+The programs are implemented primarily in **C++** and demonstrate fundamental programming concepts such as classes and objects, constructors, encapsulation, inheritance, polymorphism, operator overloading, exception handling, functions, strings, arrays, and parameter passing.
 
 The repository will be **periodically updated** with new programs and lab exercises completed during the semester.
 
@@ -37,18 +36,35 @@ The programs in this repository cover the following concepts:
   - `private`
   - `protected`
 - Constructors
-- Default Constructors
-- Parameterized Constructors
-- Constructor Overloading
+  - Default Constructors
+  - Parameterized Constructors
+  - Constructor Overloading
 - Functions
-- Functions with Arguments
-- Passing Objects as Arguments
+  - Functions with Arguments
+  - Passing Objects as Arguments
 - Assignment Operator
 - Inheritance
-- Single Inheritance
-- Multilevel Inheritance
-- Types of Inheritance
+  - Single Inheritance
+  - Multilevel Inheritance
+  - Multiple Inheritance
+  - Diamond Problem
+  - Virtual Base Classes
+- Polymorphism
+  - Compile-Time Polymorphism
+  - Runtime Polymorphism
+  - Function Overriding
+  - Virtual Functions
+- Operator Overloading
+  - Addition Operator (`+`)
+  - Subtraction Operator (`-`)
 - Abstract Classes
+  - Pure Virtual Functions
+- Exception Handling
+  - `try`
+  - `throw`
+  - `catch`
+  - Multiple Exception Handlers
+  - Division by Zero
 - String Handling
 - Arrays
 - Basic Problem Solving using C++
@@ -109,16 +125,69 @@ These programs demonstrate constructors and parameterized constructors in C++.
 - `Singleinheritence`
 - `inheritance_types`
 - `constructor_flow_inheritance`
+- `Multiple_Inheritance_Diamond_Problem.cpp`
+- `Virtual_Base_Class_Diamond_Problem_Solution.cpp`
 
-These programs demonstrate inheritance concepts including single inheritance, different types of inheritance, and constructor execution in inheritance.
+These programs demonstrate:
+
+- Single and multiple inheritance.
+- Different types of inheritance.
+- Constructor execution in inheritance.
+- The Diamond Problem in multiple inheritance.
+- Virtual base classes to resolve ambiguity in diamond inheritance.
 
 ### 7. Abstract Classes
 
 - `abstract`
+- `Abstract_Class_Vehicle_Car_and_Bike.cpp`
 
-This program demonstrates the concept of abstraction using an abstract class.
+These programs demonstrate abstraction using abstract classes and pure virtual functions. The Vehicle example uses derived Car and Bike classes to implement a virtual mileage function.
 
-### 8. Strings
+### 8. Polymorphism and Function Overriding
+
+- `Runtime_Polymorphism_One_Base_One_Derived_Class.cpp`
+- `Runtime_Polymorphism_Function_Overriding_Two_Derived_Classes.cpp`
+- `Runtime_Polymorphism_Base_and_Two_Derived_Classes.cpp`
+
+These programs demonstrate:
+
+- Runtime polymorphism.
+- Virtual functions.
+- Function overriding.
+- Base class pointers accessing derived class functions.
+- Late binding using virtual functions.
+
+### 9. Operator Overloading
+
+- `Complex_Number_Addition_Operator_Overloading.cpp`
+- `Complex_Number_Addition_Operator_Overloading - Copy.cpp`
+- `Complex_Number_Addition_Operator_Overloading_Alternative.cpp`
+- `Complex_Number_Subtraction_Operator_Overloading.cpp`
+
+These programs demonstrate operator overloading in C++ using complex numbers.
+
+- Overloading the addition operator (`+`) to add two complex numbers.
+- Overloading the subtraction operator (`-`) to subtract two complex numbers.
+- Using member functions to redefine the behavior of operators for user-defined objects.
+
+### 10. Exception Handling
+
+- `Exception_Handling_Division_By_Zero.cpp`
+- `Exception_Handling_Division_By_Zero_Modified.cpp`
+- `Exception_Handling_Int_and_Double_Exceptions.cpp`
+- `Exception_Handling_Multiple_Int_Exceptions.cpp`
+- `Exception_Handling_Negative_Number.cpp`
+
+These programs demonstrate exception handling in C++ using:
+
+- `try`, `throw`, and `catch` blocks.
+- Handling division-by-zero errors.
+- Throwing and catching integer and double exceptions.
+- Multiple exception handlers.
+- Handling negative number exceptions.
+- Understanding program execution before and after an exception is caught.
+
+### 11. Strings
 
 - `length_of_string_using_C++_style`
 - `length_of_string_using_char_array`
@@ -127,7 +196,7 @@ This program demonstrates the concept of abstraction using an abstract class.
 
 These programs demonstrate string handling using C++ strings and character arrays.
 
-### 9. Arrays and Basic Problem Solving
+### 12. Arrays and Basic Problem Solving
 
 - `Biggest_no_of_list`
 - `biggest_number_in_list`
@@ -137,3 +206,14 @@ These programs demonstrate string handling using C++ strings and character array
 These programs demonstrate basic problem-solving using arrays, variables, and arithmetic operations.
 
 ---
+
+## Technologies Used
+
+- **Programming Language:** C++
+- **IDE / Compiler:** C++ compatible IDE and compiler
+
+---
+
+## Repository Updates
+
+This repository is a collection of ongoing academic practice programs and laboratory exercises. New programs and concepts will be added as the OOP coursework progresses.
